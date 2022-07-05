@@ -61,9 +61,36 @@
 
 - 데이터 베이스 테이블 이름을 작성해준다
 
-> id
+> id INT(11) NOT NULL AUTO_INCREMENT
 
-- ID
+- ID 컬럼에는 숫자만 오게한다
+- PK 프라이머리 키라고한다.
+- AUTO_INCREMENT 자동으로 1씩 증가하는거다
+
+---
+
+## CRUD
+
+- Create
+- Read
+- Update
+- Delete
+
+데이터를 추가하는건 Create
+
+> INSERT INTO [DATABASE_TABLE]
+
+데이터를 보자 확인 필수
+
+> SELECT \* FROM [TABLE_NAME]
+
+데이터를 읽는거 Read
+
+데이터를 업데이트 하는건 Update
+
+데이터를 지우는건 Delete
+
+---
 
 ## SQL
 
