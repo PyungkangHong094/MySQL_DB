@@ -44,9 +44,40 @@
 > -uroot -p
 
 - 비밀번호를 치면 데이터베이스로 입장한다
-  > CREATE DATABASE [NAME];
+
+> CREATE DATABASE [NAME];
+
 - 데이터 베이스 생성하기
-  > SHOW DATABASES;
+
+> SHOW DATABASES;
+
 - 데이터 베이스 보여주기
-  > USE [NAME];
-- 데이터베이스 사용
+
+> USE [NAME];
+
+- 데이터베이스 사용하려면
+
+> CREATE TABLE [Name]
+
+- 데이터 베이스 테이블 이름을 작성해준다
+
+> id
+
+- ID
+
+## SQL
+
+Structured Query Language
+SQL은 어떠한 언어어보다 쉽다
+
+관계형 데이터라고 한다
+
+---
+
+## 용어
+
+- Table : 표
+- row : 행
+- column : 열
+
+---
