@@ -86,9 +86,23 @@
 
 데이터를 읽는거 Read
 
+> WHERE [Col] [NAME]
+
+> SELECT id,title,created,author FROM [TABLE_NAME]
+
 데이터를 업데이트 하는건 Update
 
+> UPDATE [TABLE_NAME] SET [바꾸고싶은거='내용'] , [행들=''], WHERE [id=?];
+
+- where 문을 빠트리면 정말 제앙이옵니다 조심
+
 데이터를 지우는건 Delete
+
+> DELETE FROM [TABLE_NAME] WHERE id=number;
+
+디센딩 뒤로 거꾸로 진행
+
+> DESE
 
 ---
 
